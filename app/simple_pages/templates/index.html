@@ -1,19 +1,18 @@
-{% extends "base.html" %}
+{% extends "index.html" %}
 {% block content %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project 2</title>
 </head>
 <body>
 
-<div class="container">
-  <h2>Ashley Moeriro</h2>
+<div class="carousel">
+  <h2>Ashley Moreiro</h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -25,15 +24,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src=../../static/images/Git-Logo-2Color.png" alt="Git" style="width:100%;">
+        <img src=../../static/images/git.png" alt="Git" width= 100% height= 500>>
       </div>
 
       <div class="item">
-        <img src="../../static/images/pycharm.jpg" alt="PyCharm" style="width:100%;">
+        <img src="../../static/images/pycharm.jpg" alt="PyCharm" width= 100% height= 500>
       </div>
 
       <div class="item">
-        <img src="../../static/images/horizontal-logo-monochromatic-white.png" alt="Docker" style="width:100%;">
+        <img src="../../static/images/horizontal-logo-monochromatic-white.png" alt="Docker" width= 100% height= 500>
       </div>
     </div>
 
@@ -48,7 +47,7 @@
     </a>
   </div>
 </div>
-
+<h1>Lets Explore how to use Git, Docker, and Pycharm</h1>
 </body>
 </html>
 {% endblock %}

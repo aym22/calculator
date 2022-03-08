@@ -33,3 +33,7 @@ def test_calculator_subtract_method():
     """Testing the Calculator Subtract"""
     calculator = Calculator()
     assert calculator.subtract(1) == -1
+
+def test_calculator_multiply_method():
+    '''Testing the Calculator Multiply'''
+    c
