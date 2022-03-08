@@ -1,4 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
     <h1>Python/Flash</h1>
+    <h2>Testing with PyTest</h2>
+    <p>You need to use the Run/Debug Configuration item on the toolbar. Click it and 'Edit Configurations'  In the 'Defaults' section in the left pane there is a 'py.test' item</p>
+    <p>1. Go to <i>edit configurations</i></p>
+    <img src="../../static/images/edit.png" alt="Edit" width="400" height="300">
+    <p>2. Add a new run config and select <i>py.test</i></p>
+    <img src="../../static/images/pytest.png" alt="Pytest" width="300" height="500">
+
+    <p>3. In the run config details, you need to set <i>target=python</i> and the unnamed field below to <i>tests</i>. It looks like this is the name of your test folder. Not too sure tough. I also recommend the <i>-s</i> argument so that if you debug your tests, the console will behave properly. Without the argument pytest captures the output and makes the debug console buggy.</p>
+    <img src="../../static/images/myprojects.png" alt="projects" width="800" height="500">
+    <p>4.My tests folder looks like that. This is just below the root of my project (my_project/tests).</p>
+    <img src="../../static/images/simplepages.png" alt="final" width="750" height="500">
+
+    <h2>Link to my Github</h2>
 {% endblock %}

@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
     <h1>Continuous Integration and Deployment</h1>
+    <p><strong><i>Heroku manages app deployments with Git</i></strong></p>
     <h2><strong>Automate your workflow from idea to production</strong></h2>
     <p>GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.</p>
     <h3><strong>Github Actions</strong></h3>
@@ -29,5 +30,16 @@
         <li>Allows you to reduce the amount of friction in the development process.</li>
         <li>Allows you to concentrate on innovation rather than operations.</li>
     </ol>
+
+    <h4>Before you can deploy your app to Heroku, initialize a local Git repository and commit your application code to it.</h4>
+    <p><strong>git add .</strong></p>
+    <p><strong>git commit -m "My first commit"</strong></p>
+    <h4>Deploy Your Code</h4>
+    <p>To deploy your app to Heroku, use the <i>git push </i> command to push the code from your local repository’s main branch to your <i>heroku</i> remote.</p>
+    <p>Use this same command whenever you want to deploy the latest committed version of your code to Heroku.</p>
+    <p>Heroku only deploys code that you push to the master or main branches of the remote.</p>
+    <h3>Everyone Commits</h3>
+    <p><i>"Integration is primarily about communication. Integration allows developers to tell other developers about the changes they have made. Frequent communication allows people to know quickly as changes develop."</i></p>
+    <p><strong>Martin Fowler<i>01 May 2006</i></strong></p>
 
 {% endblock %}
