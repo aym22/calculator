@@ -9,7 +9,7 @@
 
 * [Developmental Deployment](https://dashboard.heroku.com/apps/aymflask2)
 
-## Setting up CI/CD
+## Setting up CI/CD - test
 
 The result of this will be that when you create a pull request to merge a branch to master, it will deploy to your
 heroku development app/dyno and when you merge or push to master on github, it will deploy the app to the production heroku
