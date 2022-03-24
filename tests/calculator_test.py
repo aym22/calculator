@@ -36,4 +36,4 @@ def test_calculator_subtract_method():
 
 def test_calculator_multiply_method():
     '''Testing the Calculator Multiply'''
-    c
+

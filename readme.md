@@ -1,13 +1,13 @@
 # Project Setup
 
-[![Production Workflow][![Heroku Awake](https://github.com/aym22/calculator1/actions/workflows/heroku_awake_dev.yml/badge.svg)](https://github.com/aym22/calculator1/actions/workflows/heroku_awake_dev.yml)
+[![Development Workflow](https://github.com/aym22/calculator1/actions/workflows/dev.yml/badge.svg)](https://github.com/aym22/calculator1/actions/workflows/dev.yml)
 
 * [Production Deployment](https://dashboard.heroku.com/apps/aymflask2)
 
 
-[![Development Workflow][![Heroku Awake](https://github.com/aym22/calculator1/actions/workflows/heroku_awake_prod.yml/badge.svg)](https://github.com/aym22/calculator1/actions/workflows/heroku_awake_prod.yml)
+[![Production Workflow](https://github.com/aym22/calculator1/actions/workflows/prod.yml/badge.svg)](https://github.com/aym22/calculator1/actions/workflows/prod.yml)
 
-* [Developmental Deployment](https://kwilliam-dev.herokuapp.com/)
+* [Developmental Deployment](https://dashboard.heroku.com/apps/aymflask2)
 
 ## Setting up CI/CD
 
